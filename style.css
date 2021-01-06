@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #21222c;
+}
+
+.card {
+    background: #282A36;
+    height: 70vh;
+    width: 335px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000 ;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#task-input {
+    margin-right: 10px;
+    border: none;
+    height: 30px;
+    width: 180px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+#include-button {
+    padding: 0 5px;
+    border: none;
+    background: #4DF87B;
+    font-size: 20px;
+
+}
+
+#todo-list{
+    margin: 20px;
+    margin-left: 75px;
+    color: #FF79C1;
+    font-size: 20px
+}
